@@ -7,8 +7,6 @@ var mainView = app.addView('.view-main', {
 
 var compassWatchID = -1;
 
-//-----------------------------------------------------------------
-
 document.addEventListener("deviceready", onDeviceReady, false);
 var isDeviceReady = false;
 function onDeviceReady() {
@@ -23,8 +21,6 @@ function checkIsDeviceReady() {
     }
     return true;
 }
-
-//-----------------------------------------------------------------
 
 $$(document).on('pageInit', function (e) {
     var page = e.detail.page;
